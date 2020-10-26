@@ -13,6 +13,16 @@
 - Install HeliPort for using wifi
 
 - To fix microphone, let install JackFix and add it to startup program:
+
+  - Step1: Download CodecCommander.zip (Extract it)
+  
+  - Step2: Download Jackfix
+  
+  - Step3: In folder CodecComammder, it will have CodecCommander.kext and hda-verb, so 
+  move hda-verb to /usr/bin
+  ex: mv ~/Downloads/hda-verb /usr/bin
+  
+  - Step4: double click jackfix to fix and add it to startup program.
   
   https://www.elitemacx86.com/threads/fix-audio-distortion-when-using-headphones-on-laptops.185/
   
